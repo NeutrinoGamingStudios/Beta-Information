@@ -14,7 +14,7 @@ body:
     attributes:
       label: Username/Contact
       description: Your username or preferred contact method
-      placeholder: e.g., YourUsername or your.email@example.com
+      placeholder: e.g., YourUsername
     validations:
       required: true
 
@@ -24,12 +24,8 @@ body:
       label: Device Type
       description: What type of device are you using?
       options:
-        - Desktop/PC
-        - Laptop
         - Mobile Phone
         - Tablet
-        - Gaming Console
-        - Other
     validations:
       required: true
 
@@ -38,16 +34,7 @@ body:
     attributes:
       label: Device Details
       description: Provide specific details about your device
-      placeholder: e.g., iPhone 14 Pro, Windows 11, Chrome Browser v119, etc.
-    validations:
-      required: true
-
-  - type: input
-    id: operating-system
-    attributes:
-      label: Operating System
-      description: What operating system are you using?
-      placeholder: e.g., Windows 11, macOS 14.1, iOS 17.1, Android 14, etc.
+      placeholder: e.g., iPhone, IPad, Android
     validations:
       required: true
 
